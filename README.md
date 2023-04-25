@@ -6,4 +6,3 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MrJabes762&theme=dark&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
 
-<script src="https://gist.github.com/MrJabes762/8e68d143cb776f6fafa9.js"></script>
