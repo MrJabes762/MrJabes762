@@ -1,22 +1,27 @@
-name: Atualizar WakaTime Stats
+name: Waka Readme
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Atualiza todos os dias à meia-noite (UTC)
-  workflow_dispatch:       # Permite atualização manual
+    - cron: '0 0 * * *'  # Atualiza diariamente à meia-noite
+  workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
       - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_TOTAL: true           # Exibe o total de horas programadas
-          SHOW_TITLE: true           # Mostra o título "WakaTime Stats"
-          TIME_RANGE: last_7_days    # Define o período de análise (últimos 7 dias)
-          LANG_COUNT: 5              # Número de linguagens exibidas
-          SHOW_MASKED_TIME: true     # Oculta o tempo exato e mostra apenas o percentual
-          SHOW_LINES_OF_CODE: true   # Mostra a quantidade de linhas de código escritas
-          SHOW_COMMIT: true          # Mostra o número de commits realizados
+          SHOW_TOTAL: true
+          SHOW_TITLE: true
+          TIME_RANGE: last_7_days
+          LANG_COUNT: 5
+          SHOW_MASKED_TIME: true
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPOSITORY: MrJabes762/MrJabes762
+          SECTION_NAME: waka
+          BLOCKS: ░▒▓█
+          CODE_LANG: txt
+          SHOW_TIME: true
+          STOP_AT_OTHER: false
+          COMMIT_MESSAGE: Updated waka-readme graph with new metrics
