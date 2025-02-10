@@ -2,8 +2,8 @@ name: Atualizar WakaTime Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *' 
-  workflow_dispatch:    
+    - cron: '0 0 * * *'  # Atualiza todos os dias à meia-noite (UTC)
+  workflow_dispatch:       # Permite atualização manual
 
 jobs:
   update-readme:
@@ -13,3 +13,10 @@ jobs:
       - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_TOTAL: true           # Exibe o total de horas programadas
+          SHOW_TITLE: true           # Mostra o título "WakaTime Stats"
+          TIME_RANGE: last_7_days    # Define o período de análise (últimos 7 dias)
+          LANG_COUNT: 5              # Número de linguagens exibidas
+          SHOW_MASKED_TIME: true     # Oculta o tempo exato e mostra apenas o percentual
+          SHOW_LINES_OF_CODE: true   # Mostra a quantidade de linhas de código escritas
+          SHOW_COMMIT: true          # Mostra o número de commits realizados
