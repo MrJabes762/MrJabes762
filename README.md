@@ -6,6 +6,6 @@
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=MrJabes762&show_icons=true&theme=dark)
 
-## 📊 WakaTime Weekly Stats
+## 📊 WakaTime Stats
 
 <a href="https://wakatime.com"><img src="https://wakatime.com/share/@97500f29-58aa-420c-b18a-3f7cc6d8a772/9219be4f-c004-4c7c-bbf6-42efbe70ab02.png" /></a>
