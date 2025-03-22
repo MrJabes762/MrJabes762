@@ -8,4 +8,4 @@
 
 ## 📊 WakaTime Weekly Stats
 
-<figure><embed src="https://wakatime.com/share/@97500f29-58aa-420c-b18a-3f7cc6d8a772/34b6cfbd-1248-4d20-b3ac-037c559afd12.svg"></embed></figure>
+<a href="https://wakatime.com"><img src="https://wakatime.com/share/@97500f29-58aa-420c-b18a-3f7cc6d8a772/26940dfc-4d6d-42fe-950e-e376a671e42b.png" /></a>
