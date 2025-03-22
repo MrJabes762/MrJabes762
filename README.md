@@ -4,10 +4,8 @@
 
 ## Acredito que, em primeiro plano, o que define esse profisional (para alem da definição descrita por convenção social) é a sua lógica, e alem disso, detalhes, artificios, especificações técnicas desses itens que se adequam á respectivos contextos e habilidade de se desafiar ao complexo, comprenendendo itens individuais e o todo.
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MrJabes762&theme=dark&langs_count=8)](https://github.com/anuraghazra/github-readme-stats)
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=MrJabes762&show_icons=true&theme=dark)
 
 ## 📊 WakaTime Weekly Stats
 
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
+<figure><embed src="https://wakatime.com/share/@97500f29-58aa-420c-b18a-3f7cc6d8a772/34b6cfbd-1248-4d20-b3ac-037c559afd12.svg"></embed></figure>
